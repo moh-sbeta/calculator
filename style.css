@@ -1,11 +1,108 @@
-.keys{
-	display: flex;
-	box-sizing: 10px 10px 10px 10px;
-	  	
+
+.btn{
+    display: flex;
+    
+  } 
+
+header{
+  background: ;
+  font-style: bold;
+  font-size: 40px;
+  text-align: center;
+  color: black;
+  font-family: arial;
+
+  }
+
+
+
+
+body{
+  background: white;
+  overflow: auto; 
+}
+#data{
+  color: white;
+  align-items: 50%;
+}
+ header{
+  animation: alternate;
+ }
+ a{
+  text-decoration-style: none;
+ }
+ .newspaper {
+      display: inline-block;
+      padding-right: 10px;
+      padding-left: 10px;
+      column-count: 2;
+
+      }
+.pics{
+  display: grid;
+  max-width: 900px;
+  max-height: 500px;
+
+}
+ #video{
+  width: ;
+  height: ;
+  position: relative;
+  animation-name: olalala;
+  animation-duration: 30s;
 }
 
 
+@keyframes olalala {
+  0%{right:0px; top:10px;}
+  6%{right: :20px; top:0px;}
+  12%{right:0px; top:10px;}
+  18%{right:20px; top:0px;}
+  24%{right:0px; top:10px;}
+  30%{right:20px; top:0px;}
+  36%{right:0px; top:10px;}
+  42%{right: :20px; top:0px;}
+  48%{right:0px; top:10px;}
+  54%{right: :20px; top:0px;}
+  60%{right:0px; top:10px;}
+  66%{right: :20px; top:0px;}
+  72%{right:0px; top:10px;}
+  79%{right:20px; top:0px;}
+  85%{right:0px; top:10px;}
+  92%{right:20px; top:0px;}
+  98%{right:0px; top:10px;}
+  100%{right:20px; top:0px;}
+
+}
 
 
+ #weslaty{
+  width: ;
+  height: ;
+  position: relative;
+  animation-name: holahop;
+  animation-duration: 30s;
+}
 
 
+@keyframes holahop {
+  0%{left:0px; top:0px;}
+  6%{left:20px; top:20px;}
+  12%{left:0px; top:0px;}
+  18%{left:20px; top:20px;}
+  24%{left:0px; top:0px;}
+  30%{left:20px; top:20px;}
+  36%{left:0px; top:0px;}
+  42%{left:20px; top:20px;}
+  48%{left:0px; top:0px;}
+  54%{left:20px; top:20px;}
+  60%{left:0px; top:0px;}
+  66%{left:20px; top:20px;}
+  72%{left:0px; top:0px;}
+  79%{left:20px; top:20px;}
+  85%{left:0px; top:0px;}
+  92%{left:20px; top:20px;}
+  98%{left:0px; top:0px;}
+  100%{left:20px; top:20px;}
+
+}
