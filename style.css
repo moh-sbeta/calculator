@@ -1,11 +1,79 @@
-.keys{
-	display: flex;
-	box-sizing: 10px 10px 10px 10px;
-	  	
+
+.btn{
+    display: flex;
+    
+  } 
+
+header{
+  background: ;
+  font-style: bold;
+  font-size: 40px;
+  text-align: center;
+  color: black;
+  font-family: arial;
+
+  }
+
+
+
+
+body{
+  background: white;
+  overflow: auto; 
+}
+#data{
+  color: white;
+  align-items: 50%;
+}
+ header{
+  animation: alternate;
+ }
+ a{
+  text-decoration-style: none;
+ }
+ .newspaper {
+      display: inline-block;
+      padding-right: 10px;
+      padding-left: 10px;
+      column-count: 2;
+
+      }
+.pics{
+  display: grid;
+  max-width: 900px;
+  max-height: 500px;
+
 }
 
 
 
+ #weslaty{
+  width: ;
+  height: ;
+  position: relative;
+  animation-name: holahop;
+  animation-duration: 5s;
+}
 
 
+@keyframes holahop {
+  0%{left:0px; top:0px;}
+  6%{left:200px; top:200px;}
+  12%{left:0px; top:0px;}
+  18%{left:200px; top:200px;}
+  24%{left:0px; top:0px;}
+  30%{left:200px; top:200px;}
+  36%{left:0px; top:0px;}
+  42%{left:200px; top:200px;}
+  48%{left:0px; top:0px;}
+  54%{left:200px; top:200px;}
+  60%{left:0px; top:0px;}
+  66%{left:200px; top:200px;}
+  72%{left:0px; top:0px;}
+  79%{left:200px; top:200px;}
+  85%{left:0px; top:0px;}
+  92%{left:200px; top:200px;}
+  98%{left:0px; top:0px;}
+  100%{left:200px; top:200px;}
 
+}
